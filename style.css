@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 119, 34);
+    margin-top: 30vh;
+}
+
+h1 {
+    color: #ffff;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.label-wrapper {
+    text-align: center;
+}
+
+.custom-label {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-label:hover {
+    background-color: #0056b3;
+}
+
+#audioPlayer {
+    display: none;
+}
+
+@media (max-width:330px){
+    audio{
+        width: 250px;
+    }
+}
