@@ -1,5 +1,8 @@
 # Music Player
 
+![GitHub top language](https://img.shields.io/github/languages/top/A-nshuman/Music_Player)
+![GitHub repo size](https://img.shields.io/github/repo-size/A-nshuman/Music_Player?color=orange)
+
 Custom music player for playing audio files with a stylish and interactive user interface. This project allows users to select and play audio files, providing a unique and fun music listening experience.
 
 ## Features
